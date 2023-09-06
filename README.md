@@ -79,3 +79,9 @@ executable binary  # x86_64, ARM, CUDA, TPU
     - [Demo on Youtube](https://www.youtube.com/watch?v=izpeb_FugII&t=5s)
   - [Adversarial Learning](./example/dcgan)
   - [Train ResNet50 Using ImageNet](./example/resnet)
+
+#### build on centos
+- c++14 need upgrade g++
+- gocv used,should install opencv depend on gocv version
+- cgotorch depend on libtorch(https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-1.6.0%2Bcpu.zip)
+- go invoke cgotorch function use cgo

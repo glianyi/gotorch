@@ -15,7 +15,8 @@ INSTALL_NAME=""
 CUDA_FLAGS=""
 
 function build_linux_no_cuda() {
-    CXX="clang++"
+    # CXX="clang++"
+    CXX="g++"
     LIBTORCH_DIR="linux/libtorch"
     GLIBCXX_USE_CXX11_ABI="0"
     if [[ ! -d "$DIR/$LIBTORCH_DIR" ]]; then
